@@ -12,3 +12,9 @@ body {
 button:hover {
   cursor: pointer;
 }
+
+.wrapper {
+  width: 90%;
+  margin: 0rem auto;
+  max-width: 90rem; /* 90px = 1440px */
+}
