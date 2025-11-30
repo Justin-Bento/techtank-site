@@ -114,9 +114,15 @@ const navigation = {
       name: "Luma",
       href: EXTERNAL_LINKS.LUMA,
       icon: (props: any) => (
-        <svg fill="currentColor" width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 724 264" {...props}>
-            <path d="M38.53 260.65H.43V27.86h38.1zm86.46 2.77c-42.25 0-66.48-22.96-66.48-63V89.33h38.1v108.28c0 23.61 8.7 32.39 32.12 32.39 30.35 0 42.73-14.54 42.73-50.17v-90.5h38.1v171.33h-36.54v-29.91c-4.99 22.98-27.12 32.67-48.03 32.67zm347.2-2.77H434.4V149.87c0-22.5-7.01-30.87-25.88-30.87-24.28 0-37.11 14.45-37.11 41.79v99.86h-37.79V149.87c0-21.93-7.23-30.87-24.94-30.87-31.59 0-38.05 32.96-38.05 41.79v99.86h-38.1V89.33h36.54v29.96c6.49-21.02 27.02-33.71 47.72-33.71 20.69 0 38.09 7.9 45.64 33.71 10.13-26.76 28.35-33.71 50.15-33.71 37.88 0 59.61 18.88 59.61 51.81v123.26h0zm76.65 2.77c-52.62 0-61.55-33.45-61.55-50.52 0-20.1 8.83-38.21 27.93-45.55 8.41-3.11 16.52-5.43 24.84-7.1 7.33-1.47 18.64-3.03 26.91-4.17l2.73-.38c14.38-2 29.67-9.21 29.67-18.62 0-16-20.51-18.39-32.74-18.39-13.87 0-23.64 3.57-27.53 10.05-3.49 6.46-3.73 7.97-4.62 13.6l-.62 4.43h-38.1l.68-5.61c1.35-11.14 3.41-19.03 6.48-24.83 10.54-20.39 31.77-30.75 63.08-30.75 26.11 0 44.63 8.23 53.26 15.94 5.31 4.6 9.1 9.84 11.89 16.46 5.84 12.36 6.32 20.63 6.32 29.4v86.43c0 8.07.78 14.97 2.31 20.5l1.76 6.35h-38.91l-.7-4.19c-.5-2.96-.67-19.75-.88-26.23-8.99 23.61-28.27 33.18-52.21 33.18zm50.53-93.72c-7.97 6.11-20.47 9.6-38.62 13.23-31.27 5.78-36.54 13.06-36.54 27.22 0 12.5 10.63 20.26 27.75 20.26 33.23 0 47.41-15.48 47.41-51.77v-8.94zm124.2-105.51C688.46 64.19 660 35.73 660 .62c0 35.11-28.46 63.57-63.57 63.57h0c35.11 0 63.57 28.46 63.57 63.57h0c0-35.11 28.46-63.57 63.57-63.57z"
-            />
+        <svg
+          fill="currentColor"
+          width="24"
+          height="24"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 724 264"
+          {...props}
+        >
+          <path d="M38.53 260.65H.43V27.86h38.1zm86.46 2.77c-42.25 0-66.48-22.96-66.48-63V89.33h38.1v108.28c0 23.61 8.7 32.39 32.12 32.39 30.35 0 42.73-14.54 42.73-50.17v-90.5h38.1v171.33h-36.54v-29.91c-4.99 22.98-27.12 32.67-48.03 32.67zm347.2-2.77H434.4V149.87c0-22.5-7.01-30.87-25.88-30.87-24.28 0-37.11 14.45-37.11 41.79v99.86h-37.79V149.87c0-21.93-7.23-30.87-24.94-30.87-31.59 0-38.05 32.96-38.05 41.79v99.86h-38.1V89.33h36.54v29.96c6.49-21.02 27.02-33.71 47.72-33.71 20.69 0 38.09 7.9 45.64 33.71 10.13-26.76 28.35-33.71 50.15-33.71 37.88 0 59.61 18.88 59.61 51.81v123.26h0zm76.65 2.77c-52.62 0-61.55-33.45-61.55-50.52 0-20.1 8.83-38.21 27.93-45.55 8.41-3.11 16.52-5.43 24.84-7.1 7.33-1.47 18.64-3.03 26.91-4.17l2.73-.38c14.38-2 29.67-9.21 29.67-18.62 0-16-20.51-18.39-32.74-18.39-13.87 0-23.64 3.57-27.53 10.05-3.49 6.46-3.73 7.97-4.62 13.6l-.62 4.43h-38.1l.68-5.61c1.35-11.14 3.41-19.03 6.48-24.83 10.54-20.39 31.77-30.75 63.08-30.75 26.11 0 44.63 8.23 53.26 15.94 5.31 4.6 9.1 9.84 11.89 16.46 5.84 12.36 6.32 20.63 6.32 29.4v86.43c0 8.07.78 14.97 2.31 20.5l1.76 6.35h-38.91l-.7-4.19c-.5-2.96-.67-19.75-.88-26.23-8.99 23.61-28.27 33.18-52.21 33.18zm50.53-93.72c-7.97 6.11-20.47 9.6-38.62 13.23-31.27 5.78-36.54 13.06-36.54 27.22 0 12.5 10.63 20.26 27.75 20.26 33.23 0 47.41-15.48 47.41-51.77v-8.94zm124.2-105.51C688.46 64.19 660 35.73 660 .62c0 35.11-28.46 63.57-63.57 63.57h0c35.11 0 63.57 28.46 63.57 63.57h0c0-35.11 28.46-63.57 63.57-63.57z" />
         </svg>
       ),
     },
@@ -124,3 +130,98 @@ const navigation = {
 } as const;
 
 export default navigation;
+
+export const events_hosted = [
+  {
+    id: 1,
+    title: "Virtual Panel Discussion Series",
+    info: `TechTank's Virtual Panel Discussion Series (aka "Guppy Talks") aims to support early-career devs and tech-enthusiasts in gaining more confidence as a dev, and providing job-search or networking tactics/suggestions for people to get into or flourish within the tech industry.`,
+    banner: {
+      src: "/virtual-panel.webp",
+      alt: "Some descriptive text goes here",
+    },
+    hosts: {
+      names: "Chris Kim",
+    },
+  },
+  {
+    id: 2,
+    title: "Study Tank",
+    info: ` Study Tank is a virtual initiative that aims to foster an environment where tech enthusiasts can gather and discuss topics related to software development, data structures & algorithms, web fundamentals, and more.`,
+    banner: {
+      src: "/study-tank.webp",
+      alt: "Some descriptive text goes here",
+    },
+    hosts: {
+      names: "Nonso Otoh",
+      socials: "",
+    },
+  },
+  {
+    id: 3,
+    title: "Mentorship",
+    info: ` The Tech Tank Mentorship Program connects aspiring tech enthusiasts with industry experts. It offers valuable insights, skill development, and networking, empowering mentees to excel in the tech world.`,
+    banner: {
+      src: "/mentorship.webp",
+      alt: "Some descriptive text goes here",
+    },
+    hosts: {
+      names: "Sammy Lam",
+    },
+  },
+  {
+    id: 4,
+    title: "Job Search Buddy",
+    info: `  Navigating the job search can be daunting, but the TechTank Job Search Buddy Program offers a supportive partnership. Rant, celebrate, and learn together with a like-minded companion. Participants meet 1-2 times a week, fostering success stories and a well-established buddy system. Connect with a compatible partner to navigate this journey together and keep yourself accountable. `,
+    banner: {
+      src: "/job-search.webp",
+      alt: "Some descriptive text goes here",
+    },
+    hosts: {
+      names: "Neal Panamdanam ",
+    },
+  },
+  {
+    id: 5,
+    title: " Tech Tank Socials",
+    info: `  Tech Tank Socials are a vibrant community where developers come together for non-coding activities. From networking events to team-building outings, these gatherings foster connections, relaxation, and a well-rounded tech community experience.`,
+    banner: {
+      src: "/socials.webp",
+      alt: "Some descriptive text goes here",
+    },
+    hosts: {
+      names: [
+        "Sammy Lam (Linkedin)",
+        "Chris Kim (Linkedin)",
+        "Riaz Virani (Linkedin)",
+        "Neal Panamdanam (Linkedin)",
+        "Niya Panamdanam (Linkedin)",
+        "Nonso Otoh (Linkedin)",
+      ],
+    },
+  },
+  {
+    id: 6,
+    title: "Women & Non Binary Coffee Meets",
+    info: `Women & Non-Binary Coffee Meets in tech provide inclusive and supportive spaces for women and non-binary individuals within the tech industry to connect, share experiences, and foster professional growth. These gatherings offer opportunities for networking, mentorship, and discussions on pertinent industry topics.`,
+    banner: {
+      src: "/diversity.webp",
+      alt: "Some descriptive text goes here",
+    },
+    hosts: {
+      names: "Niya Panamdanam",
+    },
+  },
+  {
+    id: 7,
+    title: "Toronto Tech Events Calendar",
+    info: `  Toronto Tech Events Calendar is a convenient resource for all tech events in Toronto, streamlining event discovery and scheduling. It's designed to enhance networking opportunities, providing a one-stop solution for staying informed and engaged in the Toronto Tech community.`,
+    banner: {
+      src: "/tech-events.webp",
+      alt: "Some descriptive text goes here",
+    },
+    hosts: {
+      names: "Niya Panamdanam",
+    },
+  },
+];
