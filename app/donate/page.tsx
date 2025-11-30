@@ -38,14 +38,14 @@ export default function page() {
               className=""
             />
           </span>
-          <div className="*:text-white">
+          <div className="*:text-white flex flex-col items-center sm:items-start">
             <Link
               href="mailto:techtankto@gmail.com"
               className="text-2xl font-medium"
             >
               techtankto@gmail.com
             </Link>
-            <p className="text-base italic text-gray-400">
+            <p className="text-base italic text-gray-400 max-w-[50ch] text-center sm:text-left">
               By donating to TechTank, you agree that your donation is bound by
               the{" "}
               <Link
