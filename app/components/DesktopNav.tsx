@@ -2,17 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import navigation from "@/utils/constants/navigation";
 import { NavigationMenu } from "radix-ui";
-import { twMerge } from "tailwind-merge";
 
 export function DesktopNav() {
   return (
-    <nav
-      className={twMerge(
-        Styles.wrapper,
-        "flex justify-between items-center py-5",
-        "hidden sm:flex"
-      )}
-    >
+    <nav className="wrapper justify-between items-center py-5 hidden md:flex">
       <div>
         <Link href="/" className="flex items-center gap-4">
           <Image
@@ -66,7 +59,3 @@ export function DesktopNav() {
     </nav>
   );
 }
-
-const Styles = {
-  wrapper: "max-w-[1440px] w-[90%] m-auto",
-};
