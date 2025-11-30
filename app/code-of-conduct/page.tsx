@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function CoC() {
   return (
-    <section className="max-w-[1440px] w-[90%] m-auto pb-6 [&_p]:text-sm [&_li]:text-sm [&_h2]:text-4xl [&_h4]:text-2xl">
+    <main className="max-w-[1440px] w-[90%] m-auto pb-6 [&_p]:text-sm [&_li]:text-sm [&_h2]:text-4xl [&_h4]:text-2xl">
       <h2 className="text-center text-5xl p-3 m-3 uppercase font-light">
         Code of Conduct
       </h2>
@@ -100,6 +100,6 @@ export default function CoC() {
         </ul>
         <p>{CoC_Contents.REFERRAL_POLICY_CONCL}</p>
       </div>
-    </section>
+    </main>
   );
 }
