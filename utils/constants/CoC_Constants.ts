@@ -4,7 +4,7 @@ export const CoC_Contents: PageConstants = {
   SCOPE_TEXT:
     "We, the admin team at TechTank, are happy to have grown to such a large group in such a short amount of time. As we value the participation and enjoyment of everyone in our community, we have decided to release community guidelines/codes of conduct. Our goal and wish is that everyone has a positive experience, and these codes apply to ALL community spaces: our slack workspace, in-person and virtual social gatherings, and direct messages. Repeated unacceptable behaviour will lead to expulsion from the group as we are here to create a safe and inclusive space for everyone.",
   ENFORCEMENT_TEXT:
-    "Instances of abuse, harassment or any unacceptable behavior can be reported to the workspace admins (Chris K., Sammy, Nonso, Niya, Riaz, Neal or Erik O.). We will take corrective action in response to any behavior deemed inappropriate, threatening, offensive or harmful. We have a right to protect this space and individuals within.",
+    "Instances of abuse, harassment or any unacceptable behavior can be reported to the workspace admins. We will take corrective action in response to any behavior deemed inappropriate, threatening, offensive or harmful. We have a right to protect this space and individuals within.",
   ENFORCEMENT_LIST: [
     {
       id: 1,
